@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rosco</title>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <div class="rosco-divs">
+        <div class="num-text">
+          <span>Rosco One has been clicked: </span><br><input type="text" id="text-one"><span>times.</span>
+        </div>
+        <img src="images/rosco-1.jpg" alt="picture of rosco" id="my-rosco-one" onclick="increaseOne()">
+      </div>
+      <div class="rosco-divs">
+        <div class="num-text">
+          <span>Rosco Two has been clicked: </span><br><input type="text" id="text-two"><span>times.</span>
+        </div>
+        <img src="images/rosco-2.jpg" alt="another pic of rosoc" id="my-rosco-two" onclick="increaseTwo()">
+      </div>
+    </div>
+  </main>
+<script>
+var a = 1;
+var numOneClicked = document.getElementById('text-one');
+var b = 1;
+var numTwoClicked = document.getElementById('text-two');
+
+function increaseOne() {
+  var roscoOne = document.getElementById('my-rosco-one');
+    numOneClicked.value = a;
+    a++;
+}
+
+function increaseTwo() {
+  var roscoTwo = document.getElementById('my-rosco-two');
+    numTwoClicked.value = b;
+    b++;
+}
+
+// var elem = document.getElementById('my-elem');
+// elem.addEventListener('click', function(){
+//   //the element has been clicked... do stuff here
+// }, false);
+
+// Build list of dogs
+// Add selection functionality to the list
+// Display the correct dog with the list items are clicked
+// Need to keep each dogs number separate and accurate
+</script>
+</body>
+</html>

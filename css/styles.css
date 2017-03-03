@@ -1,0 +1,67 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   font-size:  14px;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.num-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: navy;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input#text {
+  font-size: 24px;
+  font-weight: bold;
+  color: navy;
+  text-align: center;
+}
+
+.rosco-divs {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+}
+
+.rosco-divs img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+/* Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.wrapper {
+  width: 100%;
+}
+
+#aside-list {
+  width: 25%;
+}
+
+#dog-display-area {
+  width: 75%
+}
+
+
+/* Dog List
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.dog-list {
+  list-style: none;
+  overflow: scroll;
+}
